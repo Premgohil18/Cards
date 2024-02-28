@@ -1,0 +1,66 @@
+body {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    /* background-color: rgb(239, 139, 220); */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    background-color: rgb(85, 185, 235);
+    width: 25%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    transition: 2s;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 153, 255);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+img:hover {
+    /* transform: scale(1.2); */
+    filter: blur(05px);
+}
+
+.img-cont {
+    width: 100%;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    color: red;
+    display: none;
+}
+
+.img-cont:hover .title {
+    display: block;
+}
